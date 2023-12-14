@@ -60,7 +60,7 @@ class SendEmail:
     # 配置发送的内容
     def create_content(self,appName,venv,startTime,totalTime,caseResult,businessFail,report):
         businessCount = caseResult['businessPassCount'] + caseResult['businessFailCount']
-        context = f"<p><strong>轻住PMS接口自动化测试报告</strong></p>  \
+        context = f"<p><strong>接口自动化测试报告</strong></p>  \
                     <p>项目名称：<font color=\"blue\">{appName}</font></p>  \
                     <p>执行人员：<font color=\"gray\">AutoJob</font></p>  \
                     <p>执行环境：<font color=\"olive\">{venv}</font></p>  \
