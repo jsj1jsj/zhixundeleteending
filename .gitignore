@@ -1,0 +1,16 @@
+.idea/
+__pycache__/
+*.pyc
+testtest/
+weWorkHandler.py
+logs/
+report/
+*/__pycache__/
+*/report/
+.pytest_cache/
+*.DS_Store
+test/
+**/dataCase/mzPMS_api_business111.xls
+
+
+

@@ -1,0 +1,317 @@
+{
+  "checkIn": {
+    "orderNo": "$orderNo$",
+    "orderRoomNo": "$roomOrderNo$",
+    "roomNumber": "$roomNum$",
+    "orderRoomGuestStayReqList": [
+      {
+        "id": "",
+        "roomGuestName": "李连杰-财务",
+        "roomGuestDocumentType": "huZhao",
+        "roomGuestTelephone": "18988888888",
+        "roomGuestDocumentNumber": "hz13797141579"
+      }
+    ],
+    "confirmStay": 2,
+    "classes": "早班",
+    "hotelCode": "$hotelCode$"
+  },
+  "getPayment": {
+    "consumeType": 0,
+    "type": 1,
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "enterAccount": {
+    "settleMoney": "100",
+    "enterType": 2,
+    "upgradeType": "",
+    "remark": "入账测试100元",
+    "externalNumber": "",
+    "settleWayCode": "20004",
+    "settleWayName": "人民币现金(收款)",
+    "subjectCode": "20004",
+    "subject": "人民币现金(收款)",
+    "businessType": 0,
+    "direction": 1,
+    "roomOrderNo": "$roomOrderNo$",
+    "orderNo": "$orderNo$",
+    "channelType": 3,
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "getUnsettled": {
+    "pageNum": 1,
+    "pageSize": 10,
+    "settleStatus": "01",
+    "roomOrderNo": "$roomOrderNo$",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "getRefundWay": {
+    "businessType": "1",
+    "roomOrderNo": "$roomOrderNo$",
+    "settleMoney": -100,
+    "settleAccountIdList": [
+      "$accountId$"
+    ],
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "settleRefund": {
+    "settleMoney": -100,
+    "enterType": 2,
+    "remark": "部分结账-退款测试",
+    "externalNumber": "",
+    "settleAccountIdList": [
+      "$accountId$"
+    ],
+    "businessType": 4,
+    "roomOrderNo": "$roomOrderNo$",
+    "orderNo": "$orderNo$",
+    "subjectCode": "20006",
+    "subject": "人民币现金(退款)",
+    "settleWayCode": "20006",
+    "settleWayName": "人民币现金(退款)",
+    "direction": 0,
+    "channelType": 3,
+    "type": 2,
+    "operateType": 2,
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "getSettled": {
+    "pageNum": 1,
+    "pageSize": 10,
+    "settleStatus": "02",
+    "roomOrderNo": "$roomOrderNo$",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "getReversed": {
+    "pageNum": 1,
+    "pageSize": 10,
+    "settleStatus": "04",
+    "roomOrderNo": "$roomOrderNo$",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "settleRepeal": {
+    "roomOrderNo": "$roomOrderNo$",
+    "orderNo": "$orderNo$",
+    "settleAccountIdList": [
+      "$accountId$"
+    ],
+    "businessType": 5,
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "regulation": {
+    "enterType": 1,
+    "adjustMoney": "100",
+    "digest": "调账100元收款测试",
+    "settleWayCode": "10001",
+    "settleWayName": "手工输入房费",
+    "subjectCode": "10001",
+    "subject": "手工输入房费",
+    "businessType": 1,
+    "direction": 1,
+    "roomOrderNo": "$roomOrderNo$",
+    "expenseMoney": "100",
+    "orderNo": "$orderNo$",
+    "channelType": 3,
+    "orderType": 0,
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "settleReceipt": {
+    "settleMoney": 100,
+    "enterType": 2,
+    "remark": "部分结账收款测试",
+    "externalNumber": "",
+    "settleAccountIdList": [
+      "$accountId$"
+    ],
+    "businessType": 4,
+    "roomOrderNo": "$roomOrderNo$",
+    "orderNo": "$orderNo$",
+    "subjectCode": "20004",
+    "subject": "人民币现金(收款)",
+    "settleWayCode": "20004",
+    "settleWayName": "人民币现金(收款)",
+    "direction": 1,
+    "channelType": 3,
+    "type": 2,
+    "operateType": 2,
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "partBill": {
+    "tearAccountId": "$accountId$",
+    "businessType": 3,
+    "orderNo": "$orderNo$",
+    "message": [
+      {
+        "remark": "拆账01",
+        "money": "50.00"
+      },
+      {
+        "remark": "拆账02",
+        "money": "50.00"
+      }
+    ],
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "reverse": {
+    "accountId": "$accountId$",
+    "orderNo": "$orderNo$",
+    "channelType": 3,
+    "operateType": "2",
+    "remark": "冲账测试",
+    "serialNo": "$serialNo$",
+    "orderType": 0,
+    "hotelCode": "$hotelCode$",
+    "roomOrderNo": "$roomOrderNo$"
+  },
+  "hangAccount": {
+    "roomOrderNo": "$roomOrderNo$",
+    "orderNo": "$orderNo$",
+    "channelType": 3,
+    "remark": "挂账测试",
+    "orderType": 0,
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "regainCheckIn": {
+    "orderRoomNo": "$roomOrderNo$",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "getAmount": {
+    "roomOrderNo": "$roomOrderNo$",
+    "expenseMoney": 0,
+    "settlleStatus": "01",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "checkOut": {
+    "settleMoney": "$settleMoney$",
+    "enterType": 2,
+    "upgradeType": "",
+    "remark": "",
+    "externalNumber": "",
+    "settleWayCode": "20006",
+    "settleWayName": "人民币现金(退款)",
+    "subjectCode": "20006",
+    "subject": "人民币现金(退款)",
+    "direction": 0,
+    "roomOrderNo": "$roomOrderNo$",
+    "orderNo": "$orderNo$",
+    "channelType": 3,
+    "operateType": "2",
+    "hangingRoomAccount": 0,
+    "orderType": 0,
+    "type": "2",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "hangSettle": {
+    "settleMoney": "$settleMoney$",
+    "enterType": 2,
+    "upgradeType": "",
+    "remark": "",
+    "externalNumber": "",
+    "settleWayCode": "20006",
+    "settleWayName": "人民币现金(退款)",
+    "subjectCode": "20006",
+    "subject": "人民币现金(退款)",
+    "direction": 0,
+    "roomOrderNo": "$roomOrderNo$",
+    "orderNo": "$orderNo$",
+    "channelType": 3,
+    "operateType": "2",
+    "hangingRoomAccount": 0,
+    "orderType": 0,
+    "type": "1",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "transferAccount": {
+    "roomOrderNo": "$transRoomOrderNo$",
+    "remark": "转账测试",
+    "accountId": "$accountId$",
+    "orderNo": "$transOrderNo$",
+    "channelType": 3,
+    "serialNo": "$serialNo$",
+    "orderRollOutType": 0,
+    "orderRollInType": 0,
+    "hotelCode": "$hotelCode$"
+  },
+  "fullCheckIn": {
+    "pmsCode": "qz",
+    "orderType": 1,
+    "arrivelHotelTime": "$arriveTime$",
+    "orderDayCount": 1,
+    "bookerType": "nonMember",
+    "bookerName": "非会员入住",
+    "bookerTelephone": "18666666666",
+    "channelId": 3,
+    "guestStructure": "fullDay",
+    "depositAmount": 0,
+    "receivableAmount": "$price$",
+    "jmcOrderNo": "",
+    "externalChannelName": "",
+    "userRemark": "",
+    "protocolCompany": "",
+    "protocolCompanyName": "",
+    "protocolDiscount": "",
+    "hourDuration": 2,
+    "memberName": "",
+    "memberNo": "",
+    "departureHotelTime": "$leaveTime$",
+    "depositModeCode": "20004",
+    "depositModeDesc": "人民币现金(收款)",
+    "jmcChannelName": "",
+    "memberCardNo": "",
+    "memberCardLevel": "",
+    "classes": "晚班",
+    "orderInfoRoomStayReq": {
+      "roomTypeId": "$roomTypeCode$",
+      "roomTypeName": "$roomTypeName$",
+      "goodsId": "$goodsCode$",
+      "roomCount": 1,
+      "confirmStay": 2,
+      "roomBreakfast": 0,
+      "orderDayPriceStayReqList": [
+        {
+          "roomDay": "$startDate$",
+          "newRoomPrice": "$price$",
+          "oldRoomPrice": "$price$"
+        }
+      ],
+      "orderRoomGuestStayReqList": [
+        {
+          "roomGuestName": "非会员入住",
+          "roomGuestTelephone": "18666666666",
+          "roomGuestDocumentType": "huZhao",
+          "roomGuestDocumentNumber": "$randomNum$"
+        }
+      ],
+      "hotelRoomStayReq": {
+        "roomId": "$roomId$",
+        "roomNumber": "$roomNum$",
+        "userRemark": ""
+      },
+      "receivableAmount": "$price$"
+    },
+    "settleWayCode": "20004",
+    "settleWayName": "人民币现金(收款)",
+    "hotelCode": "$hotelCode$"
+  },
+  "configQrPay": {
+    "payTypeCode": "activeQRCodePay",
+    "payTypeName": "二维码支付",
+    "hotelCode": "$hotelCode$"
+  }
+}

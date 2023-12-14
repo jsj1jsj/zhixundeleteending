@@ -1,0 +1,5 @@
+{
+  "updateOrder": "update crs_order.order_info set order_status = 0,order_info_hotel_keeper_status = 3,order_info_consumer_status = 1,pay_status =1 where order_no = '$orderNo$';update crs_order.order_info_room set order_room_hotel_keeper_status = 0 where order_no = '$orderNo$'",
+  "updateLinkOrder": "update crs_order.order_info set order_status = 0,order_info_hotel_keeper_status = 3,order_info_consumer_status = 1,pay_status =1 where order_no = '$linkOrderNo$';update crs_order.order_info_room set order_room_hotel_keeper_status = 0 where order_no = '$linkOrderNo$'"
+
+}

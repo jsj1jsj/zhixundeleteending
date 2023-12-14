@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BookRQ>
+       <AuthenticationToken>
+              <Username>taobao</Username>
+
+              <Password>B75!jaJb[eO8</Password>
+
+              <CreateToken>taobao1387784033263-1387784033266</CreateToken>
+
+       </AuthenticationToken>
+
+       <TaoBaoOrderId>$randomNum$</TaoBaoOrderId>
+
+       <TaoBaoHotelId>$poiId$</TaoBaoHotelId>
+
+       <HotelId>$poiId$</HotelId>
+
+       <TaoBaoRoomTypeId>123456978</TaoBaoRoomTypeId>
+
+       <RoomTypeId>$roomType$</RoomTypeId>
+
+       <TaoBaoRatePlanId >123000123</TaoBaoRatePlanId >
+
+       <RatePlanCode>$goodsId$</RatePlanCode>
+
+       <Channel>A</Channel>
+
+       <TaoBaoGid>1234567890</TaoBaoGid>
+
+       <CheckIn>$startDate$</CheckIn>
+
+       <CheckOut>$endDate$</CheckOut>
+
+       <HourRent>false</HourRent>
+
+       <EarliestArriveTime>$startDate$ 17:00:00</EarliestArriveTime>
+
+       <LatestArriveTime>$endDate$ 12:00:00</LatestArriveTime>
+
+       <RoomNum>1</RoomNum>
+
+       <Occupancy>1</Occupancy>
+
+       <PriceType>1</PriceType>
+
+       <IsMorningBuy>1</IsMorningBuy>
+
+       <InventoryType>1</InventoryType>
+
+       <TotalPrice>$salePrice$</TotalPrice>
+
+       <OtherFee>0</OtherFee>
+
+       <PaidPrice>0</PaidPrice>
+
+       <TotalSellerPromotion>$salePrice$</TotalSellerPromotion>
+
+       <Currency>CNY</Currency>
+
+       <PaymentType>1</PaymentType>
+
+       <ContactName>沈腾-飞猪</ContactName>
+
+       <ContactTel>13920682209</ContactTel>
+
+       <ContactEmail>hello@taobao.com</ContactEmail >
+
+       <DailyInfos>
+
+              <DailyInfo>
+
+                     <Day>$startDate$</Day>
+
+                     <Price>$salePrice$</Price>
+
+                     <BreakFast>0</BreakFast>
+
+                     <GiftInfo>送水果;接机一次</GiftInfo>
+
+              </DailyInfo>
+
+
+       </DailyInfos>
+
+
+       <OrderGuests>
+
+              <OrderGuest>
+
+                     <Name>入住人1</Name>
+
+                     <RoomPos>1</RoomPos>
+
+                      <IdType>1</IdType>
+
+                      <IdCode>123456789123456789</IdCode>
+
+              </OrderGuest>
+
+              <OrderGuest>
+
+                     <Name>入住人2</Name>
+
+                     <RoomPos>1</RoomPos>
+
+              </OrderGuest>
+
+       </OrderGuests>
+
+       <Comment>测试飞猪渠道</Comment>
+
+    <GuaranteeType> 0</GuaranteeType>
+
+ <OriginPaymentType>1</OriginPaymentType>
+
+
+</BookRQ>

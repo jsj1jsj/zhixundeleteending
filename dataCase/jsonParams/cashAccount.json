@@ -1,0 +1,390 @@
+{
+  "addAccountSuitCommon": {
+    "name": "$randomNum$",
+    "subjectName": "代收费用",
+    "subjectCode": "10205",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "addAccountSuitgoods": {
+    "name": "$randomNum$",
+    "subjectName": "小商品",
+    "subjectCode": "10011",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "addAccount1": {
+    "expenseSubjectCode": "$subjectCode$",
+    "expenseSubjectName": "$subjectName$",
+    "expenseMoney": "10",
+    "externalNumber": "$accountId$",
+    "externalBillNo": "",
+    "hangingRoomAccountType": 0,
+    "orderType": 0,
+    "settleSubjectCode": "20004",
+    "settleSubjectName": "人民币现金(收款)",
+    "payStatus": "1",
+    "remark": "添加现付帐-非小商品-不挂房账-线下支付"
+  },
+  "addAccountLehui": {
+    "expenseSubjectCode": "$subjectCode$",
+    "expenseSubjectName": "$subjectName$",
+    "expenseMoney": "0.01",
+    "externalNumber": "$accountId$",
+    "externalNo": "153",
+    "hangingRoomAccountType": 0,
+    "orderType": 0,
+    "settleSubjectName": "乐惠支付",
+    "settleSubjectCode": "20036",
+    "hotelCode": "$hotelCode$",
+    "payStatus": 1,
+    "classes": "晚班",
+    "remark": "添加现付帐-非小商品-不挂房账-线下支付"
+  },
+  "lehuiPay": {
+    "payRecordNo": "$payRecordNo$",
+    "hotelCode": "$hotelCode$",
+    "classes": "晚班"
+  },
+  "getUsefulAccounts": {
+    "pageNum": 1,
+    "pageSize": 100,
+    "settleType": "02",
+    "businessDayStart": "$businessDay$",
+    "businessDayEnd": "$businessDay$",
+    "externalNumber": "$accountId$",
+    "hotelCode": "$hotelCode$"
+  },
+  "getUsefulAccountsGoods": {
+    "pageNum": 1,
+    "pageSize": 100,
+    "settleType": "02",
+    "businessDayStart": "$businessDay$",
+    "businessDayEnd": "$businessDay$",
+    "externalNumber": "$accountIdGoods$",
+    "hotelCode": "$hotelCode$"
+  },
+  "reserveEntry": {
+    "accountNo": "$accountNo$"
+  },
+  "getReverseAccounts": {
+    "pageNum": 1,
+    "pageSize": 100,
+    "settleType": "04",
+    "businessDayStart": "$businessDay$",
+    "businessDayEnd": "$businessDay$",
+    "externalNumber": "$accountId$",
+    "hotelCode": "$hotelCode$"
+  },
+  "getReverseAccountsGoods": {
+    "pageNum": 1,
+    "pageSize": 100,
+    "settleType": "04",
+    "businessDayStart": "$businessDay$",
+    "businessDayEnd": "$businessDay$",
+    "externalNumber": "$accountIdGoods$",
+    "hotelCode": "$hotelCode$"
+  },
+  "addAccount2": {
+    "expenseSubjectCode": "$subjectCode$",
+    "expenseSubjectName": "$subjectName$",
+    "expenseMoney": "10",
+    "externalNumber": "$accountId$",
+    "externalBillNo": "",
+    "hangingRoomAccountType": 1,
+    "roomOrderNo": "$roomOrderNo$",
+    "orderType": 0,
+    "payStatus": "0",
+    "remark": "添加现付帐-非小商品-挂房账"
+  },
+  "addAccount3": {
+    "expenseSubjectCode": "$subjectCodeGoods$",
+    "expenseSubjectName": "$subjectNameGoods$",
+    "goodsItemizedAccountVOS": [
+      {
+        "goodsCode": "$materialCode$",
+        "goodsName": "$materialName$",
+        "hotelCode": "$hotelCode$",
+        "materialCode": "$materialCode$",
+        "num": "1",
+        "price": "10000000",
+        "storageCode": "$storageCode$"
+      }
+    ],
+    "expenseMoney": "$salePrice$",
+    "externalNumber": "$accountIdGoods$",
+    "externalBillNo": "",
+    "hangingRoomAccountType": 0,
+    "orderType": 0,
+    "settleSubjectCode": "20004",
+    "settleSubjectName": "人民币现金(收款)",
+    "payStatus": "1",
+    "remark": "添加现付帐-小商品-不挂房账-单价校验"
+  },
+  "addAccount4": {
+    "expenseSubjectCode": "$subjectCodeGoods$",
+    "expenseSubjectName": "$subjectNameGoods$",
+    "goodsItemizedAccountVOS": [
+      {
+        "goodsCode": "$materialCode$",
+        "goodsName": "$materialName$",
+        "hotelCode": "$hotelCode$",
+        "materialCode": "$materialCode$",
+        "num": "1",
+        "price": "$salePrice$",
+        "storageCode": "$storageCode$"
+      }
+    ],
+    "expenseMoney": "10000000",
+    "externalNumber": "$accountIdGoods$",
+    "externalBillNo": "",
+    "hangingRoomAccountType": 0,
+    "orderType": 0,
+    "settleSubjectCode": "20004",
+    "settleSubjectName": "人民币现金(收款)",
+    "payStatus": "1",
+    "remark": "添加现付帐-小商品-不挂房账-总价校验"
+  },
+  "addAccount5": {
+    "expenseSubjectCode": "$subjectCodeGoods$",
+    "expenseSubjectName": "$subjectNameGoods$",
+    "goodsItemizedAccountVOS": [
+      {
+        "goodsCode": "$materialCode$",
+        "goodsName": "$materialName$",
+        "hotelCode": "$hotelCode$",
+        "materialCode": "$materialCode$",
+        "num": "100000",
+        "price": "$salePrice$",
+        "storageCode": "$storageCode$"
+      }
+    ],
+    "expenseMoney": "$salePrice$",
+    "externalNumber": "$accountIdGoods$",
+    "externalBillNo": "",
+    "hangingRoomAccountType": 0,
+    "orderType": 0,
+    "settleSubjectCode": "20004",
+    "settleSubjectName": "人民币现金(收款)",
+    "payStatus": "1",
+    "remark": "添加现付帐-小商品-不挂房账-库存校验"
+  },
+  "addAccount6": {
+    "expenseSubjectCode": "$subjectCodeGoods$",
+    "expenseSubjectName": "$subjectNameGoods$",
+    "goodsItemizedAccountVOS": [
+      {
+        "goodsCode": "$materialCode$",
+        "goodsName": "$materialName$",
+        "hotelCode": "$hotelCode$",
+        "materialCode": "$materialCode$",
+        "num": "1",
+        "price": "$salePrice$",
+        "storageCode": "$storageCode$"
+      }
+    ],
+    "expenseMoney": "$salePrice$",
+    "externalNumber": "$accountIdGoods$",
+    "externalBillNo": "",
+    "hangingRoomAccountType": 0,
+    "orderType": 0,
+    "settleSubjectCode": "20004",
+    "settleSubjectName": "人民币现金(收款)",
+    "payStatus": "1",
+    "remark": "添加现付帐-小商品-不挂房账"
+  },
+  "addAccount7": {
+    "expenseSubjectCode": "$subjectCodeGoods$",
+    "expenseSubjectName": "$subjectNameGoods$",
+    "goodsItemizedAccountVOS": [
+      {
+        "goodsCode": "$materialCode$",
+        "goodsName": "$materialName$",
+        "hotelCode": "$hotelCode$",
+        "materialCode": "$materialCode$",
+        "num": "1",
+        "price": "$salePrice$",
+        "storageCode": "$storageCode$"
+      }
+    ],
+    "expenseMoney": "$salePrice$",
+    "externalNumber": "$accountIdGoods$",
+    "externalBillNo": "",
+    "hangingRoomAccountType": 0,
+    "orderType": 0,
+    "settleSubjectCode": "20036",
+    "settleSubjectName": "乐惠支付",
+    "payStatus": "1",
+    "remark": "添加现付帐-小商品-不挂房账-乐惠支付"
+  },
+  "addAccount8": {
+    "expenseSubjectCode": "$subjectCodeGoods$",
+    "expenseSubjectName": "$subjectNameGoods$",
+    "goodsItemizedAccountVOS": [
+      {
+        "goodsCode": "$materialCode$",
+        "goodsName": "$materialName$",
+        "hotelCode": "$hotelCode$",
+        "materialCode": "$materialCode$",
+        "num": "1",
+        "price": "$salePrice$",
+        "storageCode": "$storageCode$"
+      }
+    ],
+    "expenseMoney": "$salePrice$",
+    "externalBillNo": "",
+    "hangingRoomAccountType": 1,
+    "roomOrderNo": "$roomOrderNo$",
+    "orderType": 0,
+    "payStatus": "0",
+    "remark": "添加现付帐-小商品-挂房账-不支付"
+  },
+  "goodsRepeal": {
+    "serialNo": "$payRecordNo$",
+    "hotelCode": "$hotelCode$",
+    "class": "中班"
+  },
+  "addAccount9": {
+    "expenseSubjectCode": "$subjectCodeGoods$",
+    "expenseSubjectName": "$subjectNameGoods$",
+    "goodsItemizedAccountVOS": [
+      {
+        "goodsCode": "$materialCode$",
+        "goodsName": "$materialName$",
+        "hotelCode": "$hotelCode$",
+        "materialCode": "$materialCode$",
+        "num": "1",
+        "price": "$salePrice$",
+        "storageCode": "$storageCode$"
+      }
+    ],
+    "expenseMoney": "$salePrice$",
+    "externalBillNo": "",
+    "hangingRoomAccountType": 1,
+    "roomOrderNo": "$roomOrderNo$",
+    "orderType": 0,
+    "settleSubjectCode": "20004",
+    "settleSubjectName": "人民币现金(收款)",
+    "payStatus": "1",
+    "remark": "添加现付帐-小商品-挂房账-线下支付"
+  },
+  "addAccount10": {
+    "expenseSubjectCode": "$subjectCodeGoods$",
+    "expenseSubjectName": "$subjectNameGoods$",
+    "goodsItemizedAccountVOS": [
+      {
+        "goodsCode": "$materialCode$",
+        "goodsName": "$materialName$",
+        "hotelCode": "$hotelCode$",
+        "materialCode": "$materialCode$",
+        "num": "1",
+        "price": "$salePrice$",
+        "storageCode": "$storageCode$"
+      }
+    ],
+    "expenseMoney": "$salePrice$",
+    "externalBillNo": "",
+    "hangingRoomAccountType": 1,
+    "roomOrderNo": "$roomOrderNo$",
+    "orderType": 0,
+    "settleSubjectCode": "20036",
+    "settleSubjectName": "乐惠支付",
+    "payStatus": "1",
+    "remark": "添加现付帐-小商品-挂房账-乐惠支付"
+  },
+  "getHotelInfo": {
+    "hotelCode": "$hotelCode$"
+  },
+  "fullCheckIn": {
+    "pmsCode": "qz",
+    "orderType": 1,
+    "arrivelHotelTime": "$arriveTime$",
+    "orderDayCount": 1,
+    "bookerType": "nonMember",
+    "bookerName": "非会员入住",
+    "bookerTelephone": "18666666666",
+    "channelId": 3,
+    "guestStructure": "fullDay",
+    "depositAmount": 0,
+    "receivableAmount": "$price$",
+    "jmcOrderNo": "",
+    "externalChannelName": "",
+    "userRemark": "",
+    "protocolCompany": "",
+    "protocolCompanyName": "",
+    "protocolDiscount": "",
+    "hourDuration": 2,
+    "memberName": "",
+    "memberNo": "",
+    "departureHotelTime": "$leaveTime$",
+    "depositModeCode": "20004",
+    "depositModeDesc": "人民币现金(收款)",
+    "jmcChannelName": "",
+    "memberCardNo": "",
+    "memberCardLevel": "",
+    "classes": "晚班",
+    "orderInfoRoomStayReq": {
+      "roomTypeId": "$roomTypeCode$",
+      "roomTypeName": "$roomTypeName$",
+      "goodsId": "$goodsCode$",
+      "roomCount": 1,
+      "confirmStay": 2,
+      "roomBreakfast": 0,
+      "orderDayPriceStayReqList": [
+        {
+          "roomDay": "$startDate$",
+          "newRoomPrice": "$price$",
+          "oldRoomPrice": "$price$"
+        }
+      ],
+      "orderRoomGuestStayReqList": [
+        {
+          "roomGuestName": "非会员入住",
+          "roomGuestTelephone": "18666666666",
+          "roomGuestDocumentType": "huZhao",
+          "roomGuestDocumentNumber": "$randomNum$"
+        }
+      ],
+      "hotelRoomStayReq": {
+        "roomId": "$roomId$",
+        "roomNumber": "$roomNum$",
+        "userRemark": ""
+      },
+      "receivableAmount": "$price$"
+    },
+    "settleWayCode": "20004",
+    "settleWayName": "人民币现金(收款)",
+    "hotelCode": "$hotelCode$"
+  },
+  "newMaterial": {
+    "materialName": "$randomNum$",
+    "materialType": "T00001",
+    "materialUnit": "U00001",
+    "validateName": "true",
+    "remark": "备注:新增物料"
+  },
+  "updateGoodsPrice": {
+    "storageCode": "$storageCode$",
+    "salePrice": 1,
+    "hotelCode": "$hotelCode"
+  },"getUnsettled": {
+    "pageNum": 1,
+    "pageSize": 10,
+    "settleStatus": "01",
+    "roomOrderNo": "$transRoomOrderNo$",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "reverse": {
+    "accountId": "$accountId$",
+    "orderNo": "$transOrderNo$",
+    "channelType": 3,
+    "operateType": "2",
+    "remark": "冲账测试",
+    "serialNo": "$serialNo$",
+    "orderType": 0,
+    "hotelCode": "$hotelCode$",
+    "roomOrderNo": "$transRoomOrderNo$",
+    "classes": "早班"
+  }
+}

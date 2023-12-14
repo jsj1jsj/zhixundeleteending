@@ -1,0 +1,11 @@
+{
+  "searchAll": {"jmcId":"","roomTypeCode":"","startDate":"","endDate":"","hotelCode":"$hotelCode$"},
+  "searchApplet": {"jmcId":"1","roomTypeCode":"","startDate":"","endDate":"","hotelCode":"$hotelCode$"},
+  "searchStore": {"jmcId":"3","roomTypeCode":"","startDate":"","endDate":"","hotelCode":"$hotelCode$"},
+  "searchMT": {"jmcId":"8","roomTypeCode":"","startDate":"","endDate":"","hotelCode":"$hotelCode$"},
+  "searchFZ": {"jmcId":"11","roomTypeCode":"","startDate":"","endDate":"","hotelCode":"$hotelCode$"},
+  "searchRoomType": {"jmcId":"","roomTypeCode":"$roomTypeCode$","startDate":"","endDate":"","hotelCode":"$hotelCode$"},
+  "searchDate": {"jmcId":"","roomTypeCode":"","startDate":"$startDate$","endDate":"$endDate$","hotelCode":"$hotelCode$"},
+  "searchLimit": {"jmcId":"1","roomTypeCode":"$roomTypeCode$","startDate":"$startDate$","endDate":"$endDate$","hotelCode":"$hotelCode$"}
+
+}

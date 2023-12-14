@@ -1,0 +1,969 @@
+{
+  "userInfo": {
+    "hotelCode": ""
+  },
+  "pmsCode": {
+    "hotelCode": "$hotelCode$"
+  },
+  "hardware": {
+    "roomId": "",
+    "hotelCode": "$hotelCode$",
+    "typeCode": "traditionalLock"
+  },
+  "memberQZ": {
+    "namePhoneOrIdCardNo": null,
+	"activeMendian": null,
+	"memberLevelSourceHotelCode": null,
+	"activeTimeStart": null,
+	"activeTimeEnd": null,
+	"levelCode": null,
+	"purchaseMemberBuyTimeStart": null,
+	"purchaseMemberBuyTimeEnd": null,
+	"pageNo": 1,
+	"pageSize": 10,
+    "hotelCode": "$hotelCode$"
+  },
+  "memberQZSelect": {
+    "namePhoneOrIdCardNo": "18988888888",
+	"activeMendian": null,
+	"memberLevelSourceHotelCode": null,
+	"activeTimeStart": null,
+	"activeTimeEnd": null,
+	"levelCode": null,
+	"purchaseMemberBuyTimeStart": null,
+	"purchaseMemberBuyTimeEnd": null,
+	"pageNo": 1,
+	"pageSize": 10,
+    "hotelCode": "$hotelCode$"
+  },
+  "member": {
+    "levelCode": "",
+    "keyWord": "",
+    "groupMemberFlag": "",
+    "page": 1,
+    "size": 10,
+    "hotelCode": "$hotelCode$"
+  },
+  "memberFlip": {
+    "levelCode": "",
+    "keyWord": "",
+    "groupMemberFlag": "",
+    "page": 2,
+    "size": 10,
+    "hotelCode": "$hotelCode$"
+  },
+  "memberSelect": {
+    "levelCode": "",
+    "keyWord": "18766666666",
+    "groupMemberFlag": "",
+    "startTime": "",
+    "endTime": "",
+    "page": 1,
+    "size": 10,
+    "hotelCode": "$hotelCode$"
+  },
+  "memberSelect2": {
+    "levelCode": "",
+    "keyWord": "",
+    "groupMemberFlag": "",
+    "startTime": "2021-03-01",
+    "endTime": "2021-03-31",
+    "page": 1,
+    "size": 10,
+    "hotelCode": "$hotelCode$"
+  },
+  "shiftSelect": {
+    "shiftsCode":"morningShift",
+    "shiftsName":"早班",
+    "startTime":"08:00",
+    "endTime":"20:00",
+    "businessDay":"$startDate$",
+    "hotelCode":"$hotelCode$"
+},
+  "baseInfo": {
+    "typeCode": "idCardReader",
+    "hotelCode": "$hotelCode$"
+  },
+  "memberSingle": {
+    "page": "1",
+    "size": "10",
+    "keyWord": "",
+    "levelCode": "",
+    "groupMemberFlag": "",
+    "startTime": "",
+    "endTime": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "memberSingleNo": {
+    "hotelMemberNo": "$hotelMemberNo$",
+    "hotelCode": "$hotelCode$"
+  },
+  "memberCredit": {
+	"hotelPromotionId": "",
+	"actions1": "",
+	"amount": "2",
+	"amount1": "2",
+	"giftAmount": "",
+	"paymentType": "000001",
+	"remarks": "微信充值2元测试",
+	"hotelMemberNo": "1346348806031015972",
+	"print": false,
+	"hotelCode": "$hotelCode$"
+  },
+  "memberBuy": {
+	"amount": "1",
+	"salesTransactionType": 4,
+	"remarks": "购买小商品1元",
+	"hotelMemberNo": "1346348806031015972",
+	"amount1": "1",
+	"hotelCode": "$hotelCode$"
+  },
+  "memberChongzhi": {
+	"amount": "1",
+	"salesTransactionType": 5,
+	"remarks": "充值金额退款1元",
+	"hotelMemberNo": "1346348806031015972",
+	"actions1": "",
+	"amount1": "1",
+	"hotelCode": "$hotelCode$"
+  },
+  "memberAdd": {
+	"changeValue": "20",
+	"hotelMemberNo": "1346348806031015972",
+	"comment": "AutoTest增加20积分",
+	"changeType": "1",
+	"hotelCode": "$hotelCode$"
+  },
+  "memberReduce": {
+	"changeValue": "20",
+	"hotelMemberNo": "1346348806031015972",
+	"comment": "AutoTest减少20积分",
+	"changeType": "2",
+	"hotelCode": "$hotelCode$"
+  },
+  "memberSearch": {
+	"page": "1",
+    "size": "10",
+    "hotelMemberNo": "1346348806031015972",
+	"startTime": "",
+    "endTime": "",
+	"salesTransactionType": "",
+	"transactionType": "",
+	"hotelCode": "$hotelCode$"
+  },
+  "memberSearchFlip": {
+	"page": "2",
+    "size": "10",
+    "hotelMemberNo": "1346348806031015972",
+	"startTime": "",
+    "endTime": "",
+	"salesTransactionType": "",
+	"transactionType": "",
+	"hotelCode": "$hotelCode$"
+  },
+  "memberSearchReduce": {
+	"page": "1",
+    "size": "10",
+    "hotelMemberNo": "1346348806031015972",
+	"startTime": "",
+    "endTime": "",
+	"salesTransactionType": "2",
+	"transactionType": "2",
+	"hotelCode": "$hotelCode$"
+  },
+  "memberDepositMoney": {
+    "hotelMemberNo": "1346348806031015972",
+	"hotelCode": "$hotelCode$"
+  },
+  "memberDepositType": {
+    "hotelMemberNo": "1346348806031015972",
+	"hotelCode": "$hotelCode$"
+  },
+  "memberDepositList": {
+    "page": "1",
+    "size": "10",
+    "startTime": "",
+    "endTime": "",
+    "salesTransactionType": "",
+    "transactionType": "",
+    "hotelMemberNo": "1346348806031015972",
+	"hotelCode": "$hotelCode$"
+  },
+  "memberDepositListFlip": {
+    "page": "2",
+    "size": "10",
+    "startTime": "",
+    "endTime": "",
+    "salesTransactionType": "",
+    "transactionType": "",
+    "hotelMemberNo": "1346348806031015972",
+	"hotelCode": "$hotelCode$"
+  },
+  "memberDepositListTime": {
+    "page": "1",
+    "size": "10",
+    "startTime": "$startDate$",
+    "endTime": "$endDate$",
+    "salesTransactionType": "1",
+    "transactionType": "",
+    "hotelMemberNo": "1346348806031015972",
+	"hotelCode": "$hotelCode$"
+  },
+  "list": {
+    "page": 1,
+    "size": 20,
+    "status": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "listFlip": {
+    "page": 2,
+    "size": 20,
+    "status": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "listStatus": {
+    "page": 1,
+    "size": 20,
+    "status": "1",
+    "hotelCode": "$hotelCode$"
+  },
+  "ActivityAdd": {
+    "hotelPromotionName": "添加活动测试",
+	"startTimeStamp": "",
+	"endTimeStamp": "",
+	"isLast": "1",
+	"status": "1",
+    "hotelCode": "$hotelCode$"
+  },
+  "LevelAdd": {
+    "hotelPromotionId": "$hotelPromotionId$",
+	"amount": "1000",
+	"giftAmount": "135",
+    "hotelCode": "$hotelCode$"
+  },
+  "ActivityReduce": {
+    "hotelPromotionId": "$hotelPromotionId$",
+    "hotelCode": "$hotelCode$"
+  },
+  "scoreUpdate": {
+    "integralRatio": "1000",
+	"integralPlan": "D",
+    "hotelCode": "$hotelCode$"
+  },
+  "report": {
+    "keyWord": "",
+    "levelId": "",
+    "page": 1,
+    "size": 10,
+    "salesTransactionType": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "reportFlip": {
+    "keyWord": "",
+    "levelId": "",
+    "page": 2,
+    "size": 10,
+    "salesTransactionType": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "reportType": {
+    "keyWord": "",
+    "levelId": "",
+    "page": 1,
+    "size": 10,
+    "orderDesc": "",
+    "salesTransactionType": "1",
+    "hotelCode": "$hotelCode$"
+  },
+  "healthyCode": {
+    "type": 1,
+    "hotelCode": "$hotelCode$"
+  },
+  "companyType": {
+    "code": "companyType",
+    "hotelCode": "$hotelCode$"
+  },
+  "accountType": {
+    "classes": "早班",
+    "hotelCode": "$hotelCode$"
+  },
+  "company": {
+    "pageSize": 10,
+    "pageNum": 1,
+    "companyName": "",
+    "enabled": "true",
+    "typeCode": "protocolCompany",
+    "hotelCode": "$hotelCode$"
+  },
+  "companyFlip": {
+    "pageSize": 10,
+    "pageNum": 2,
+    "companyName": "",
+    "enabled": "true",
+    "typeCode": "protocolCompany",
+    "hotelCode": "$hotelCode$"
+  },
+  "roomState": {
+    "guestType": "",
+    "roomState": "",
+    "roomType": "",
+    "settlement": "",
+    "stayType": "",
+    "defaultStatistical": "",
+    "bindLock": "false",
+    "hotelCode": "$hotelCode$"
+  },
+  "roomStateSearch": {
+    "guestType": "",
+    "roomState": "",
+    "roomType": "",
+    "settlement": "",
+    "stayType": "",
+    "defaultStatistical": "preDepartureToday",
+    "bindLock": "false",
+    "hotelCode": "$hotelCode$"
+  },
+  "remoteType": {
+    "startDate": "$startDate$",
+    "endDate": "$endDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "remote": {
+    "startDate": "$startDate$",
+    "endDate": "$endDate$",
+    "roomTypeCode": "",
+    "roomNumber": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "channel": {
+    "goodsTypeId": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "priceList": {
+    "jmcId": "",
+    "roomTypeCode": "",
+    "startDate": "",
+    "endDate": "",
+    "status": 2,
+    "hotelCode": "$hotelCode$"
+  },
+  "priceOnline": {
+    "jmcId": "",
+    "roomTypeCode": "",
+    "startDate": "",
+    "endDate": "",
+    "status": 1,
+    "hotelCode": "$hotelCode$"
+  },
+  "stayType": {
+    "code": "stayType",
+    "hotelCode": "$hotelCode$"
+  },
+  "guestType": {
+    "code": "guestType",
+    "hotelCode": "$hotelCode$"
+  },
+  "account": {
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "pageAccount": {
+    "pageNum": 1,
+    "pageSize": 10,
+    "enable": "",
+    "hotelCode": "$hotelCode$",
+    "classes": "晚班"
+  },
+  "pageFlip": {
+    "pageNum": 2,
+    "pageSize": 10,
+    "enable": "",
+    "hotelCode": "$hotelCode$",
+    "classes": "晚班"
+  },
+  "allChannel": {
+    "status": "true",
+    "hotelCode": "$hotelCode$"
+  },
+  "qzTop": {
+    "receiveAccountId": "64",
+    "type": "2",
+    "classes": "晚班",
+    "hotelCode": "$hotelCode$"
+  },
+  "qzBill": {
+    "pageNum": 1,
+    "pageSize": 10,
+    "verificateState": "0",
+    "receiveAccountId": "64",
+    "productType": "",
+    "hotelCode": "$hotelCode$",
+    "classes": "晚班"
+  },
+  "qzBillFlip": {
+    "pageNum": 2,
+    "pageSize": 10,
+    "verificateState": "0",
+    "receiveAccountId": "64",
+    "productType": "",
+    "hotelCode": "$hotelCode$",
+    "classes": "晚班"
+  },
+  "qzRecordlist": {
+    "verificateId": "$id$",
+    "classes": "晚班",
+    "hotelCode": "$hotelCode$"
+  },
+  "qzAccount": {
+    "receiveAccountId": "64",
+    "pageNum": 1,
+    "pageSize": 10,
+    "classes": "晚班",
+    "hotelCode": "$hotelCode$"
+  },
+  "qzAccountFlip": {
+    "receiveAccountId": "64",
+    "pageNum": 2,
+    "pageSize": 10,
+    "classes": "晚班",
+    "hotelCode": "$hotelCode$"
+  },
+  "subject": {
+    "consumeType": 0,
+    "type": 6,
+    "classes": "晚班",
+    "hotelCode": "$hotelCode$"
+  },
+  "bill": {
+    "billState": 1,
+    "pageNum": 1,
+    "pageSize": 10,
+    "billType": 1,
+    "hotelCode": "$hotelCode$"
+  },
+  "billFlip": {
+    "billState": 1,
+    "pageNum": 2,
+    "pageSize": 10,
+    "billType": 1,
+    "hotelCode": "$hotelCode$"
+  },
+  "remit": {
+    "pageNum": 1,
+    "pageSize": 10,
+    "billEndDate": "",
+    "billStartDate": "",
+    "status": 1,
+    "checkAll": "false",
+    "page": "true",
+    "hotelCode": "$hotelCode$"
+  },
+  "remitFlip": {
+    "pageNum": 2,
+    "pageSize": 10,
+    "billEndDate": "",
+    "billStartDate": "",
+    "status": 1,
+    "checkAll": "false",
+    "page": "true",
+    "hotelCode": "$hotelCode$"
+  },
+  "income": {
+    "pageNum": 1,
+    "pageSize": 10,
+    "hotelName": "$hotelName$",
+    "businessDayStart": "$startDate$",
+    "businessDayEnd": "$endDate$",
+    "paging": "true",
+    "classes": "早班",
+    "hotelCode": "$hotelCode$"
+  },
+  "incomeFlip": {
+    "pageNum": 2,
+    "pageSize": 10,
+    "hotelName": "$hotelName$",
+    "businessDayStart": "$startDate$",
+    "businessDayEnd": "$endDate$",
+    "paging": "true",
+    "classes": "早班",
+    "hotelCode": "$hotelCode$"
+  },
+  "single": {
+    "businessDay": "$businessDay$",
+    "classes": "早班",
+    "hotelCode": "$hotelCode$"
+  },
+  "ledger": {
+    "pageNum": 1,
+    "pageSize": 10,
+    "businessDayStart": "$businessDay$",
+    "businessDayEnd": "$endDate$",
+    "classes": "早班",
+    "hotelCode": "$hotelCode$"
+  },
+  "ledgerFlip": {
+    "pageNum": 2,
+    "pageSize": 10,
+    "businessDayStart": "$businessDay$",
+    "businessDayEnd": "$endDate$",
+    "classes": "早班",
+    "hotelCode": "$hotelCode$"
+  },
+  "incomeList": {
+    "businessDayStart": "$businessDay$",
+    "businessDayEnd": "$endDate$",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "payment":{
+    "hotelName":"$hotelName$",
+    "businessDayStart":"$startDate$",
+    "businessDayEnd":"$startDate$",
+    "paging":true,
+    "pageSize":20,
+    "pageNum":1,
+    "verificateState":"0",
+    "classes":"",
+    "subjectCodes":"",
+    "operateName":"",
+    "receiveAccountNames":"",
+    "hotelCode":"$hotelCode$"
+  },
+  "paymentFlip":{
+    "hotelName":"$hotelName$",
+    "businessDayStart":"$startDate$",
+    "businessDayEnd":"$startDate$",
+    "paging":true,
+    "pageSize":20,
+    "pageNum":2,
+    "verificateState":"0",
+    "classes":"",
+    "subjectCodes":"",
+    "operateName":"",
+    "receiveAccountNames":"",
+    "hotelCode":"$hotelCode$"
+  },
+  "shifts": {
+    "startDate":"$startDate$",
+    "endDate":"$startDate$",
+    "operatorName":"",
+    "shiftsCode":"morningShift",
+    "hotelCode":"$hotelCode$"
+  },
+  "shift": {
+    "changePriceType": "0",
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 1,
+    "startDate": "$startDate$",
+    "endDate": "$endDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "shiftFlip": {
+    "changePriceType": "0",
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 2,
+    "startDate": "$startDate$",
+    "endDate": "$endDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "roomType": {
+    "flag": "true",
+    "hotelCode": "$hotelCode$"
+  },
+  "guestRoom": {
+    "paging": "true",
+    "reportType": 1,
+    "pageSize": 10,
+    "pageNum": 1,
+    "startDate": "$startDate$",
+    "endDate": "$endDate$",
+    "guestStructure": "",
+    "operaterName": "",
+    "roomTypeCode": "",
+    "hotelChannel": "",
+    "bookerType": "",
+    "roomStatus": 1,
+    "sortColumn": "",
+    "sortRule": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "guestFlip": {
+    "paging": "true",
+    "reportType": 1,
+    "pageSize": 10,
+    "pageNum": 2,
+    "startDate": "$startDate$",
+    "endDate": "$endDate$",
+    "guestStructure": "",
+    "operaterName": "",
+    "roomTypeCode": "",
+    "hotelChannel": "",
+    "bookerType": "",
+    "roomStatus": 1,
+    "sortColumn": "",
+    "sortRule": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "payDetail": {
+    "hotelName": "$hotelName$",
+    "createTimeStart": "$startDate$",
+    "createTimeEnd": "$startDate$",
+    "paging": true,
+    "pageSize": 10,
+    "pageNum": 1,
+    "verificateState": "0",
+    "channelType": "",
+    "productType": "",
+    "hotelCode": "$hotelCode$",
+    "classes": "晚班"
+  },
+  "transfer": {
+    "hotelName": "$hotelName$",
+    "businessDayStart": "$startDate$",
+    "businessDayEnd": "$startDate$",
+    "paging": true,
+    "pageSize": 10,
+    "pageNum": 1,
+    "hotelCode": "$hotelCode$",
+    "classes": "晚班"
+  },
+  "consume": {
+    "orderChannelType": "0",
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 1,
+    "startDate": "$startDate$",
+    "endDate": "$startDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "consumeFlip": {
+    "orderChannelType": "0",
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 2,
+    "startDate": "$startDate$",
+    "endDate": "$startDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "settle": {
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 1,
+    "businessDate": "$startDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "settleFlip": {
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 2,
+    "businessDate": "$startDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "stayIn": {
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 1,
+    "hotelCode": "$hotelCode$",
+    "classes": "中班"
+  },
+  "stayInFlip": {
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 2,
+    "hotelCode": "$hotelCode$",
+    "classes": "中班"
+  },
+  "credit": {
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 1,
+    "receiveId": "",
+    "hotelCode": "$hotelCode$",
+    "classes": "中班"
+  },
+  "creditFlip": {
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 2,
+    "receiveId": "",
+    "hotelCode": "$hotelCode$",
+    "classes": "中班"
+  },
+  "receive": {
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "breakfast": {
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 1,
+    "startDate": "$startDate$",
+    "endDate": "$startDate$",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "breakfastFlip": {
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 2,
+    "startDate": "$startDate$",
+    "endDate": "$startDate$",
+    "hotelCode": "$hotelCode$",
+    "classes": "早班"
+  },
+  "zero": {
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 1,
+    "startDate": "$startDate$",
+    "endDate": "$startDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "zeroFlip": {
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 2,
+    "startDate": "$startDate$",
+    "endDate": "$startDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "verify": {
+    "paging": "true",
+    "type": 1,
+    "accountId": "",
+    "size": 10,
+    "page": 1,
+    "startDate": "$startDate$",
+    "endDate": "$startDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "verifyFlip": {
+    "paging": "true",
+    "type": 1,
+    "accountId": "",
+    "size": 10,
+    "page": 2,
+    "startDate": "$startDate$",
+    "endDate": "$startDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "hang": {
+    "paging": "true",
+    "type": 1,
+    "size": 10,
+    "page": 1,
+    "settleStatus": "",
+    "startDate": "$startDate$",
+    "endDate": "$startDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "hangFlip": {
+    "paging": "true",
+    "type": 1,
+    "size": 10,
+    "page": 2,
+    "settleStatus": "",
+    "startDate": "$startDate$",
+    "endDate": "$startDate$",
+    "hotelCode": "$hotelCode$"
+  },
+  "push": {
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 1,
+    "hotelCode": "$hotelCode$"
+  },
+  "pushFlip": {
+    "paging": "true",
+    "pageSize": 10,
+    "pageNum": 2,
+    "hotelCode": "$hotelCode$"
+  },
+  "goods": {
+    "goodsTypeId": 1,
+    "goodsId": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "code": {
+    "userId": 9975,
+    "userName": "曾德浩",
+    "hotelCode": "$hotelCode$"
+  },
+  "super": {
+    "page": 1,
+    "size": 20,
+    "startTime": "",
+    "endTime": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "superFlip": {
+    "page": 2,
+    "size": 20,
+    "startTime": "",
+    "endTime": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "promotion": {
+    "startTime": "",
+    "endTime": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "market": {
+    "status": 1,
+    "beginDate": "",
+    "endDate": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "comment": {
+    "page": 1,
+    "size": 1,
+    "roomNames": "",
+    "type": 1,
+    "hotelCode": "$hotelCode$"
+  },
+  "commentFlip": {
+    "page": 2,
+    "size": 1,
+    "roomNames": "",
+    "type": 1,
+    "hotelCode": "$hotelCode$"
+  },
+  "room": {
+    "type": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "city": {
+    "code": "650000",
+    "hotelCode": "$hotelCode$"
+  },
+  "county": {
+    "cityCode": "653000",
+    "hotelCode": "$hotelCode$"
+  },
+  "business": {
+    "cityCode": "653000",
+    "hotelCode": "$hotelCode$",
+    "businessType": 2
+  },
+  "picture": {
+    "imageType": "1,2,3,4,5,6,7",
+    "hotelCode": "$hotelCode$",
+    "sortType": 0
+  },
+  "roomStatus": {
+    "roomTypeStatus": 1,
+    "hotelCode": "$hotelCode$"
+  },
+  "roomList": {
+    "page": 1,
+    "hotelCode": "$hotelCode$",
+    "size": 10000
+  },
+  "roomInfo": {
+    "page": 1,
+    "hotelCode": "$hotelCode$",
+    "size": 20
+  },
+  "roomInfoFlip": {
+    "page": 2,
+    "hotelCode": "$hotelCode$",
+    "size": 20
+  },
+  "relations": {
+    "hardwareBrand": "",
+    "hardwareModel": "",
+    "roomNumber": "",
+    "hardwareTypeCode": "traditionalLock",
+    "pageSize": 1,
+    "pageNum": 10,
+    "hotelCode": "$hotelCode$"
+  },
+  "lock": {
+    "code": "traditionalLock",
+    "hotelCode": "$hotelCode$"
+  },
+  "autoLock": {
+    "typeCode": "lock",
+    "hotelCode": "$hotelCode$"
+  },
+  "card": {
+    "url": "pages/hotel-detail/hotel-detail",
+    "hotelCode": "$hotelCode$",
+    "paramString": "h=$hotelCode$"
+  },
+  "goodsList": {
+    "total": 0,
+    "pageSize": 10,
+    "pageNum": 1,
+    "name": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "goodsListFlip": {
+    "total": 0,
+    "pageSize": 10,
+    "pageNum": 2,
+    "name": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "status": {
+    "code": "articleBorrow",
+    "hotelCode": "$hotelCode$"
+  },
+  "borrow": {
+    "statusCode": "",
+    "pageSize": 10,
+    "pageNum": 1,
+    "startDate": "",
+    "endDate": "",
+    "articleName": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "borrowFlip": {
+    "statusCode": "",
+    "pageSize": 10,
+    "pageNum": 2,
+    "startDate": "",
+    "endDate": "",
+    "articleName": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "borrowToday": {
+    "statusCode": "",
+    "pageSize": 10,
+    "pageNum": 1,
+    "startDate": "$startDate$",
+    "endDate": "$startDate$",
+    "articleName": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "borrowLend": {
+    "statusCode": "lend",
+    "pageSize": 10,
+    "pageNum": 1,
+    "startDate": "",
+    "endDate": "",
+    "articleName": "",
+    "hotelCode": "$hotelCode$"
+  },
+  "goodDisable": {
+	"id": 147,
+	"name": "",
+	"price": 12,
+	"priceStr": "12.00",
+	"available": 12,
+	"used": 0,
+	"repertory": 12,
+	"status": 0,
+	"hotelCode": "$hotelCode$"
+  },
+  "selectShift": {
+    "shiftsCode": "morningShift",
+    "shiftsName": "早班",
+    "startTime": "11:30",
+    "endTime": "11:30",
+    "businessDay": "$businessDay$",
+    "hotelCode": "$hotelCode$"
+  }
+}

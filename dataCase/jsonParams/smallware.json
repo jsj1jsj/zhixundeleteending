@@ -1,0 +1,157 @@
+{
+  "newMaterial": {
+    "materialName": "$randomNum$",
+    "materialType": "$materialType$",
+    "materialUnit": "$materialUnit$",
+    "validateName": "true",
+    "remark": "备注:新增物料1"
+  },
+  "getMaterialList": {
+    "materialName": "",
+    "materialType": "",
+    "pageNum": "1",
+    "pageSize": "100",
+    "status": "1"
+  },
+  "getMaterialListAll": {
+    "materialName": "",
+    "materialType": "",
+    "pageNum": "1",
+    "pageSize": "100",
+    "status": "-1"
+  },
+  "newMeterailRepeat": {
+    "materialName": "$materialName$",
+    "materialType": "$materialType$",
+    "materialUnit": "$materialUnit$",
+    "validateName": "true",
+    "remark": "备注：新增物料名称重复"
+  },
+  "delMeterial": {
+    "materialCode": "$materialCode$",
+    "delState": "1"
+  },
+  "enableMeterailState": {
+    "materialCode": "$materialCode$",
+    "status": "true"
+  },
+  "disableMeterailState": {
+    "materialCode": "$materialCode$",
+    "status": "false",
+    "hotelcode": "$hotelCode$"
+  },
+  "inStorage": {
+    "materialCode": "$materialCode$",
+    "price": "10",
+    "num": "100",
+    "remark": "备注：接口测试入库",
+    "saleState": "true"
+  },
+  "getInstorageList": {
+    "startTime": "$startDate$",
+    "endTime": "$endDate$",
+    "materialName": "",
+    "materialType": "",
+    "pageNum": "1",
+    "pageSize": "100"
+  },
+  "getStorageList": {
+    "isAll": "1",
+    "materialName": "",
+    "materialType": "",
+    "operatorName": "",
+    "pageNum": "1",
+    "pageSize": "100",
+    "saleState": "-1"
+  },
+   "getStorageListByName": {
+    "isAll": "1",
+    "materialName": "$materialName$",
+    "materialType": "",
+    "operatorName": "",
+    "pageNum": "1",
+    "pageSize": "100",
+    "saleState": "-1"
+  },
+  "addInStorage": {
+    "inStorageCode": "$inStorageCode$",
+    "materialCode": "$materialCode$",
+    "price": "10",
+    "num": "102",
+    "remark": "接口入库修改数量+2",
+    "saleState": "true",
+    "salePrice": "25"
+  },
+  "decreaseInStorage": {
+    "inStorageCode": "$inStorageCode$",
+    "materialCode": "$materialCode$",
+    "price": "8",
+    "num": "12",
+    "remark": "接口入库修改数量减少",
+    "saleState": "true",
+    "salePrice": "25"
+  },
+  "decreaseInStorageFail": {
+    "inStorageCode": "$inStorageCode$",
+    "materialCode": "$materialCode$",
+    "price": "2",
+    "num": "12",
+    "remark": "接口入库修改数量小于已出库",
+    "saleState": "true",
+    "salePrice": "25"
+  },
+  "outStorage": {
+    "orderId": "",
+    "storageType": 0,
+    "remark": "备注：添加出库-出库",
+    "operatorIdParam": "1",
+    "operatorNameParam": "测试",
+    "detailDtos": [
+      {
+        "storageCode": "$storageCode$",
+        "materialCode": "$materialCode$",
+        "salePrice": "$salePrice$",
+        "num": "5"
+      }
+    ]
+  },
+  "outMaxStorage": {
+    "orderId": "",
+    "storageType": 0,
+    "remark": "备注：添加出库-出库",
+    "operatorIdParam": "1",
+    "operatorNameParam": "测试",
+    "detailDtos": [
+      {
+        "storageCode": "$storageCode$",
+        "materialCode": "$materialCode$",
+        "salePrice": "$salePrice$",
+        "num": "99999999"
+      }
+    ]
+  },
+  "getoutStorageList": {
+    "startTime": "$startDate$",
+    "endTime": "$endDate$",
+    "materialName": "",
+    "materialType": "",
+    "operatorName": "",
+    "pageNum": "1",
+    "pageSize": "100",
+    "storageType": "-1"
+  },
+  "repealOutStorage": {
+    "outStorageCode": "$outStorageCode$",
+    "outStorageDetailCode": "$outStorageDetailCode$"
+  },
+  "stopSale": {
+    "storageCode": "$storageCode$",
+    "materialCode": "$materialCode$",
+    "saleState": "0"
+  },
+   "updateSale": {
+    "storageCode": "$storageCode$",
+    "materialCode": "$materialCode$",
+    "saleState": "1"
+  }
+}
