@@ -30,16 +30,6 @@ class tempPractice(object):
             except:
                 print("错误Test!")
 
-    # 查询房态图列表
-    def get_room_state(self):
-        url = "https://pms.qinghotel.com/pms/frontdesk/hotel/room/state?floor=-90&guestType=&roomState=&roomType=&settlement=&stayType=&defaultStatistical=&bindLock=false&hotelCode=10666431"
-        headers = {
-            "cookie": "t-perm_auth_login_platform_token=76e6c10065d3d1daa4e679bd7011121c; t-pms_appId=461; UM_distinctid=175936302be9c6-0999b45c6a2172-376b4502-e1000-175936302bf962; perm_auth_login_platform_token=d535a876a15e187fde45c97f4c77dea2; pms_appId=1461; d535a876a15e187fde45c97f4c77dea2_isFirst=true; JSESSIONID=4707EC3E1C1C8C632698A65248C45F28; CNZZDATA1279005589=1255829563-1604491558-https%253A%252F%252Fperm.qinghotel.com%252F%7C1604553637",
-            "token": "d535a876a15e187fde45c97f4c77dea2",
-            "hotelcode": "10666431"
-        }
-        result = requests.get(url=url, headers=headers)
-        print(result.text)
 
 
 if __name__ == '__main__':

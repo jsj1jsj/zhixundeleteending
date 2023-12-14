@@ -60,13 +60,7 @@ class OperateMysql(object):
 
 if __name__ == '__main__':
     op = OperateMysql()
-    # sql = "select * from crs_order.order_room_guest where hotel_code = 10030784"
-    sql = "update crs_order.order_info set order_status = 0,order_info_hotel_keeper_status = 3,order_info_consumer_status = 1,pay_status =1 where order_no = '1280320618851467330'"
-    # re = op.select_one_sql(sql)
-    op.execute_sql(sql)
-    # print(re)
-    # con = pymysql.connect(host='62.234.161.186',port=3306,user='crs_oa',password='rF4PWyyhm3t488vn',db='crs_hotel')
-    # con = pymysql.connect(host='152.136.135.179',port=3306,user='crs_test',password='f(tU81nxYxhrtt_]uvrn',db='crs_hotel')
+
 
 
 

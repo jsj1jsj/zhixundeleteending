@@ -26,7 +26,6 @@ class InitLogin(object):
         self.tokenField = readCon.get_config_value('login','tokenField')
         self.assertData = json.loads(readCon.get_config_value('login', 'assertData'))
         self.loginheader = readCon.get_config_value('login','loginheader')
-        self.changeHotelData = json.loads(readCon.get_config_value('login','changeHotelData'))
         self.misData = json.loads(readCon.get_config_value('login','misData'))
         self.fmsData = json.loads(readCon.get_config_value('login','fmsData'))
         self.appId = readCon.get_config_value('login','appId')
