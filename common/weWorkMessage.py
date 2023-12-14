@@ -12,17 +12,17 @@ class WeWorkMessage(object):
     # 直接调用接口发送测试结果
     def send_test_result(self, startTime, totalTime, caseResult, businessFail):
         content = self.create_content(startTime, totalTime, caseResult, businessFail)
-        url = 'http://open.meizhu365.com/api/v1/bot/message'
+        url = 'www.baidu.com'
         data = {
             "bot": "AutoTest",
             "level": "info",
-            "title": "PMS接口自动化测试报告",
+            "title": "接口自动化测试报告",
             "host": "",
             "label": {},  # {"附件信息": "附加信息"}
             "content": content,
             "notify": []
         }
-        headers = {"Authorization": "x2NI7GK2khvBrkWNuLhYQ4aK9kiplW1c6PLu3Z8U3BP1Zst9GwpTjCVAazgeRBrs"}
+        headers = {"Authorization": "11"}
         result = requests.request('post', url, json=data, headers=headers)
         # return result.json()
         print(result.text)
