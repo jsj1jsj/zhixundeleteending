@@ -116,14 +116,5 @@ class RequestsMethod(object):
 
 if __name__ == '__main__':
     rm = RequestsMethod()
-    method = 'get'
-    # url = 'https://api.shuidihuzhu.com/api/hz/order/myshuidi/get-tab-list'
-    # data = 'type=1&thirdType=1&AuthorizationV2=FdhiaTnTSAOeP4GW6Sxq9iPzl7QhskqQi9jjRZ59_cs%3D'
-    # 需用双引号
-    data = {"loginName": "18999999999", "loginPwd": "eaa6fd5e5bed1df61d0b50665ac53039"}
-    url = 'https://t-pms.qinghotel.com/pms/dynamic/info/priceCalendarCalculation'
-    res = rm.send_request(method,url,data)
-    print(type(res))
-    print(res)
 
 

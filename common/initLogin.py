@@ -57,8 +57,6 @@ class InitLogin(object):
         logger.info('----正在获取登录状态----')
         # 读取headers文件
         fileHeaders = self.get_file_headers()
-        # misHeaders = self.get_file_headers(confPath.MIS_HEADERS_PATH)
-        # fmsHeaders = self.get_file_headers(confPath.FMS_HEADERS_PATH)
         # 校验登录状态
         loginStatus = False
         # 调toApp接口往子系统注册token信息(同时校验token信息)
@@ -66,18 +64,9 @@ class InitLogin(object):
         print(self.assertData)
         self.assertData["xtoken"] = json.loads(res)["data"]["token"]
         print(self.assertData)
-        # misRes = self.reqMethod.send_request('post',self.assertUrl,data=self.misData,headers=misHeaders)
-        # fmsRes = self.reqMethod.send_request('post',self.assertUrl,data=self.misData,headers=fmsHeaders)
-        print("whj111111")
         if '"code": 200' in res:
-        # if '"code": 200' in res and '"code": 200' in misRes and '"code": 200' in fmsRes:
-            print("whj2222")
             loginStatus = False
 
-        logger.info(f'成功获取到登录状态为:{loginStatus}')
-        # 切换酒店
-        self.change_hotel()
-        return loginStatus
 
     # 定义一个登录方法，并保存token信息
     def login(self):
@@ -106,17 +95,6 @@ class InitLogin(object):
         fileHeaders = opJs.read_data()
         logger.info(f'读取到的headers信息为:{fileHeaders}')
         return fileHeaders
-
-    # 切换酒店
-    # def change_hotel(self):
-    #     fileHeaders = self.get_file_headers()
-    #     # 调changeCurrentHotelCode切换酒店id
-    #     result1 = self.reqMethod.send_request('get', self.changeHotelUrl, data=self.changeHotelData, headers=fileHeaders)
-    #     if '"code": "200"' in result1:
-    #         logger.info(f'已切换到测试酒店:{self.changeHotelData}')
-    #     else:
-    #         logger.error(f'酒店切换失败,原因:{result1}')
-
 
 if __name__ == '__main__':
     ls = InitLogin()

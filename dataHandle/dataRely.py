@@ -143,17 +143,6 @@ class DataRely(object):
             requestStr = json.dumps(requestData)
             requestStr = self.replace_all_params(paramsList, relyData, requestStr)
             requestDict = json.loads(requestStr)
-            # 将时间戳由str型转化为int型
-            try:
-                if 'arrivelHotelTime' in requestDict.keys() and '-' not in requestDict['arrivelHotelTime']:
-                    requestDict['arrivelHotelTime'] = int(requestDict['arrivelHotelTime'])
-                if 'departureHotelTime' in requestDict.keys() and '-' not in requestDict['departureHotelTime']:
-                    requestDict['departureHotelTime'] = int(requestDict['departureHotelTime'])
-                logger.info('本接口所有依赖的数据全部替换完成')
-                # if 'protocolDiscount' in requestDict.keys():
-                #     requestDict['protocolDiscount'] = int(requestDict['protocolDiscount'])
-            except Exception as msg:
-                logger.warning(f'时间戳转换失败:{msg}')
             return requestDict
         # 非json格式的请求参数的参数化值的处理（字符串/xml格式等）
         elif isinstance(requestData, str):

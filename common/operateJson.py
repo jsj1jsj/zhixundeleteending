@@ -50,9 +50,7 @@ class OperateJson(object):
 
 
 if __name__ == '__main__':
-    filename = r'D:\qingzhu-api\qingzhu-pms-api-test\dataCase\jsonParams\channelOrder.json'
-    oj = OperateJson(filename)
-    print(oj.read_data())
-    # print(oj.get_data('roomType'))
+    print("")
+
 
 
