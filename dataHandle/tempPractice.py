@@ -16,24 +16,7 @@ class tempPractice(object):
         uuid = ''.join(random.sample(string.ascii_letters + string.digits, 12))
         print(uuid)
 
-    # 查询手机号归属地
-    def get_tel_address(self):
-        for i in range(0, 1):
-            try:
-                url = "http://tcc.taobao.com/cc/json/mobile_tel_segment.htm"
-                params = {
-                    "tel": 13724328658
-                }
-                r = requests.get(url=url, params=params, verify=False, timeout=1)
-                print(r.text)
-                print(r.status_code)
-            except:
-                print("错误Test!")
-
 
 
 if __name__ == '__main__':
-    # tempPractice().get_random_pyaNo()
-    # tempPractice().get_random_uuid()
     tempPractice().get_tel_address()
-    # tempPractice().get_room_state()

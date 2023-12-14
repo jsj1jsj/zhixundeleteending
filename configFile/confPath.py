@@ -18,14 +18,9 @@ CON_FILE_PATH = os.path.join(BASE_PATH,'configFile',filepath)
 # headers文件路径
 PMSHeaders = 'headers.json'
 appletHeaders = 'appletToken.json'
-misHeaders = 'misHeaders.json'
-fmsHeaders = 'fmsHeaders.json'
-taskHeaders = 'taskHeaders.json'
 PMS_HEADERS_PATH = os.path.join(BASE_PATH,'tempData',PMSHeaders)
 APPLET_HEADERS_PATH = os.path.join(BASE_PATH,'tempData',appletHeaders)
-MIS_HEADERS_PATH = os.path.join(BASE_PATH,'tempData',misHeaders)
-FMS_HEADERS_PATH = os.path.join(BASE_PATH,'tempData',fmsHeaders)
-TASK_HEADERS_PATH = os.path.join(BASE_PATH,'tempData',taskHeaders)
+
 
 # 报告路径
 TEST_CASE_REPORT_PATH = os.path.join(BASE_PATH, 'report', 'report.html')

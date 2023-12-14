@@ -282,13 +282,4 @@ if __name__ == '__main__':
     gt = GetData(filename)
     print(gt.get_excel_data())
     case = [{'caseid':21,'bissnusname':'测四','paramsRely':'orderNo'},{'id':21,'expectValue':'$orderNo$','paramsRely':'orderNo'}]
-    # testData = {'orderNo':9527}
-    # value = gt.get_excel_data()
-    # test = []
-    # for i in value:
-    #     if i['businessName']:
-    #         test.append(i['businessName'])
-    # for i in range(len(test)):
-    #     print(i + 1, test[i])
-    # rely = gt.get_params_rely(case)
-    # print(testData[rely[0]])
+
