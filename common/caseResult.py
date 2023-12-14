@@ -21,9 +21,9 @@ class CaseResult(object):
 
     # 配置发送的内容
     def create_content(self, appName, report):
-        context = f"<p>美住PMS接口自动化测试报告</p>  \
+        context = f"<p>接口自动化测试报告</p>  \
                     <p>项目名称：<font color=\"info\">{appName}</font></p>  \
-                    <p>执行人员：<font color=\"comment\">曾德浩</font></p>  \
+                    <p>执行人员：<font color=\"comment\">test</font></p>  \
                     <p>执行环境：<font color=\"comment\">test</font></p>  \
                     <p>执行时间：<font color=\"warning\">2020-04-27 22:35</font></p>    \
                     <p>执行用时：<font color=\"comment\">78s</font></p> \

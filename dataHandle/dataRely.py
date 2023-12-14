@@ -244,12 +244,6 @@ class DataRely(object):
 '''
 
 if __name__ == '__main__':
-    # dr = DataRely()
-    # case = {'dataRely': 'data.info.name,data.info.age', 'fieldRely': 'name,age', 'paramsRely': 'name,age,id',
-    #         'especialRely': '', 'requestKey': 'order001', 'jsonPath': '../dataCase/order.json'}
-    # requestData = dr.data.get_request_data(case)
-    # response = {'code': 200, 'msg': '成功', 'data': {'id': 1, 'info': {'name': 'zenghao', 'age': 21}}}
-    # print('requestData', requestData)
     da = 'we'
     st = json.dumps(da)
     di = json.loads(st)
