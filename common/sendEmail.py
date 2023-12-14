@@ -45,19 +45,9 @@ class SendEmail:
         # 添加邮件正文信息
         partContent = MIMEText(emailContent,_subtype='html',_charset='utf-8')
         msg.attach(partContent)
-        # 添加邮件附件（注意set_payload(),add_header()都需要设置编码格式）
-        # if os.path.isfile(newFile):
-        #     with open(newFile,'rb') as fn:
-        #         att = MIMEText('application', 'octet-stream')
-        #         att.set_payload(fn.read(), charset='utf-8')
-        #         att.add_header('Content-Disposition', 'attachment', filename=('utf-8', '', '接口自动化测试报告.html'))
-        #         msg.attach(att)
 
-        # 连接服务器发送邮件465,587
         try:
             logger.info(f'正在连接邮件服务器:{smptserver}:465')
-            # server = smtplib.SMTP()
-            # server.connect(smptserver,465)
             server = smtplib.SMTP_SSL(smptserver, 465)
             server.login(user,password)
             server.sendmail(sender,receiver,msg.as_string())

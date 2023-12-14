@@ -76,6 +76,9 @@ class TestCase(object):
         caseEnd = datetime.now()
         # totalTime = (caseEnd - cls.caseStart).seconds
         totalTime = str(caseEnd - cls.caseStart).split('.')[0]
+        startTime = cls.caseStart.strftime('%Y-%m-%d %H:%M:%S')
+        ##发送安骑星公众号
+
         # 发送邮件
         startTime = cls.caseStart.strftime('%Y-%m-%d %H:%M:%S')
         SendEmail().send_email(startTime, totalTime, caseResult,businessFail)

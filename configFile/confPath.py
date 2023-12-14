@@ -5,10 +5,8 @@ BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 脚本路径
 # filename = 'fmis.xls'
-filename = 'mzPMS_api_business.xls'
-# filename = 'mzPMS_api_business_demo.xls'
-# filename = 'zmPMS_api_single.xls'
-# filename = 'mzPMS_api_online.xls'
+filename = 'zhixun.xls'
+
 TEST_CASE_PATH = os.path.join(BASE_PATH, 'dataCase', filename)
 
 # 配置文件路径
