@@ -42,8 +42,8 @@ class OperateRedis(object):
 
 if __name__ == '__main__':
     con = OperateRedis()
-    k1 = 'insurance.Expired.User.TouchUp:365328089'
-    k2 = 'free.insurance.Expired.User.TouchUp:365328089'
+    k1 = '1'
+    k2 = '2'
     con.set_redis_value(k1,'23')
     v1 = con.get_redis_value(k1)
     v2 = con.get_redis_value(k2)

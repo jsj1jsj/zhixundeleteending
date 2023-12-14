@@ -79,7 +79,7 @@ class SendEmail:
 
 
 if __name__ == '__main__':
-    appN = 'pms-api'
+    appN = 'api'
     venv = 'test'
     startT = '2020-05-07 10:40:36'
     totalT = '98s'

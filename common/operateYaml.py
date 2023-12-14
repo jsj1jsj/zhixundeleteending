@@ -47,7 +47,7 @@ class OperateYaml(object):
 
 if __name__ == '__main__':
     oy = OperateYaml()
-    value = {'name':'bon','age':24}
+    value = {'name':'bo','ag':24}
     for i in range(100):
         oy.write_yaml(i,value)
     # oy.clear_yaml()
