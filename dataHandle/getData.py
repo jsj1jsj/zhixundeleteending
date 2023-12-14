@@ -190,12 +190,8 @@ class GetData(object):
         filename = UtilTool().get_file_dirname('dataCase/jsonParams', jsonPath)
         logger.info(f'成功获取请求的参数存放的json文件的完整路径：{filename}')
         try:
-            if requestKey == 'alitrip':
+            if requestKey == 'aa':
                 requestData = OperateXml().get_xml_data()
-            elif requestKey == 'tongcheng':
-                requestData = {"Message":OperateXml1().get_xml_data()}
-            elif requestKey == 'tongchengcancel':
-                requestData = {"Message":OperateXml2().get_xml_data()}
             else:
                 requestData = OperateJson(filename).get_data(requestKey)
             logger.info(f'成功获取请求的参数：{requestData}')

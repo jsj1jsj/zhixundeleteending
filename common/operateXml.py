@@ -26,7 +26,7 @@ class OperateXml2(object):
         if filename:
             self.filename = filename
         else:
-            self.filename = UtilTool().get_file_dirname('dataCase/jsonParams','tongchengcancel.xml')
+            self.filename = UtilTool().get_file_dirname('dataCase/jsonParams','el.xml')
 
     def get_xml_data(self):
         with open(self.filename,'r',encoding='utf-8') as fn:

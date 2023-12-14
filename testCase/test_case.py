@@ -175,11 +175,6 @@ class TestCase(object):
 
 
 if __name__ == '__main__':
-    # pytest.main()
-    # testData = GetData().get_excel_data()[244:247] #02 小程序
-    # testData = GetData().get_excel_data()[257:307] #02 美团
-    # testData = GetData().get_excel_data()[306:307] #03 飞猪
-    # testData = GetData().get_excel_data()[309:379]  # 03 分销商
     testData = GetData().get_excel_data()[0:9]
     TestCase().setup_class()
     for i in range(0, 9):
